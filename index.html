@@ -6,7 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light">
+    <meta name="color-scheme" content="light dark">
     <meta name="supported-color-schemes" content="light dark">
     <title>Fashion Promo HTML Email</title>
     <style type="text/css">
@@ -116,6 +116,24 @@
                 /* margin: 0 auto;
                 width: 100% !important; */
             }
+        }
+        
+         @media (prefers-color-scheme: dark) {
+
+            body,
+            center,
+            table,
+            .darkmode-bg {
+                background-color: #ffffff !important;
+            }
+
+            .darkmode-transparent {
+                background-color: transparent !important;
+            }
+        } 
+         :root {
+            color-scheme: light dark;
+            supported-color-schemes: light dark;
         }
     </style>
 
